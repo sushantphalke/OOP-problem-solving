@@ -1,0 +1,9 @@
+
+
+
+
+
+cd "c:\Users\DELL\secompOOPinC++\" ; if ($?) { g++ filehandlingincpp.cpp -o filehandlingincpp } ; if ($?) { .\filehandlingincpp }
+cd "c:\Users\DELL\secompOOPinC++\" ; if ($?) { g++ filehandlingincpp.cpp -o filehandlingincpp } ; if ($?) { .\filehandlingincpp }
+ cd "c:\Users\DELL\secompOOPinC++\" 
+cd "c:\Users\DELL\secompOOPinC++\" ; if ($?) { g++ filehandlingincpp.cpp -o filehandlingincpp } ; if ($?) { .\filehandlingincpp }
