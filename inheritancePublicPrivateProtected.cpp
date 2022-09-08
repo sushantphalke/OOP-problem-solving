@@ -33,7 +33,14 @@ class S_prot : protected B {
     // f_priv(); non accessible private function
   };
 };
-class S_priv : private B {};
+class S_priv : private B {
+    public:
+  void func() {
+    f_publ();  // calling public function ----ran--- it becomes private function of S_priv
+    f_prot();  // calling protected funtion --ran--- it becomes private function of S_priv
+    // f_priv(); non accessible private function
+  };
+};
 
 int main() {
   return 0;
