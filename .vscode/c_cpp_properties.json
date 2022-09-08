@@ -7,7 +7,7 @@
             ],
             "defines": [
                 "_DEBUG",
-                "UNICODE",
+                "UNICODE",  
                 "_UNICODE"
             ],
             "cStandard": "gnu17",

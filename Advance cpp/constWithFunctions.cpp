@@ -22,7 +22,7 @@ class Dog {
   }
 
   void constFuncTest() const {
-    cout << name << " const name returned by const function" << endl;
+    cout << name << "---printing name through the const function" << endl;
     /* // age++;
      // getName(); */
     // cannot change out of scope variables and cannot call non constant functions
@@ -30,20 +30,31 @@ class Dog {
     cout << "inscope decleared variable is int z= " << z << endl;
     z++;
     cout << "inscope decleared variable after increment is z= " << z << endl;
+
+    // this is const function
+  };
+
+  void constFuncTest() {
+    cout << name << " --printing name through the non const function" << endl;
   };
 };
 
 int main() {
   Dog d;
+
   int newAge = 4;
   d.setAge(newAge);
-
   cout << "upadted age of " << d.name << " is " << d.age << endl;
 
   const string& n = d.getName();
   cout << "name of object returned by string reference funtion is : " << n << endl;
 
   d.constFuncTest();
+
+  //   constant function testing
+
+  const Dog d2;
+  d2.constFuncTest();
 
   return 0;
 }
