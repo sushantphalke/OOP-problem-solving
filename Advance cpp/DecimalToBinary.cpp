@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  int number = 46;
+  int number = 46.34;
   int m = 0;
   int n = 0;
   while ((pow(2, m)) < number) {
