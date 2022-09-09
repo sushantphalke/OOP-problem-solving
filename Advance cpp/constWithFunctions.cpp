@@ -14,11 +14,11 @@ class Dog {
   void setAge(const int& a) {
     age = a;
   }
-  // returning string by reference
 
+  // returning string by reference
   const string& getName() {
     return name;
-    // here const string is return type of function which is constant not here function is constant
+    // here const string is return type of function which is constant, here function is not constant
   }
 
   void constFuncTest() const {
@@ -30,7 +30,7 @@ class Dog {
     cout << "inscope decleared variable is int z= " << z << endl;
     z++;
     cout << "inscope decleared variable after increment is z= " << z << endl;
-
+    
     // this is const function
   };
 
