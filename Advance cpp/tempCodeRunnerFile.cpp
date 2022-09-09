@@ -1,3 +1,1 @@
-void name(){
-    //     cout<<name;
-    // }
+quotient
