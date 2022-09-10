@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-  int number = 46.34;
+  int number = 46;
+  int myno = number;
   int m = 0;
   int n = 0;
   while ((pow(2, m)) < number) {
@@ -33,6 +34,6 @@ int main() {
   }
 
   reverse(remainder.begin(), remainder.end());
-  cout << "  binary of " << number << " is " << remainder << "<--" << endl;
+  cout << "  binary of " << myno << " is " << remainder << endl;
   return 0;
 }
