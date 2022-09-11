@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-  int number = 46;
+  int number = 6;
   int myno = number;
   int m = 0;
   int n = 0;
@@ -34,6 +34,6 @@ int main() {
   }
 
   reverse(remainder.begin(), remainder.end());
-  cout << "  binary of " << myno << " is " << remainder << endl;
+  // cout << "  binary of " << myno << " is " << remainder << endl;
   return 0;
 }
