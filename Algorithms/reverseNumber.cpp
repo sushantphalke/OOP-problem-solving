@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
   int n;
-  cout << "Enter a number to Reverse: ";
+  //   cout << "Enter a number to Reverse: ";
   cin >> n;
   int reverse = 0;
   int lastDigit = 0;
@@ -13,5 +13,6 @@ int main() {
     reverse = reverse * 10 + lastDigit;
     n = n / 10;
   }
-  cout << "reversed number is: " << reverse << endl;
+  //   cout << "reversed number is: " << reverse << endl;
+  cout << reverse;
 }
